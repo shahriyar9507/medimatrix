@@ -7,8 +7,8 @@
     --text-muted: #666666;
     --white: #FFFFFF;
     --facebook-blue: #1877F2;
-    --border-radius: 20px;
-    --card-radius: 32px;
+    --border-radius: 30px;
+    --card-radius: 40px;
     --shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease;
 }
@@ -228,7 +228,7 @@ body {
 /* Forms & Inputs */
 .form-card {
     background: var(--white);
-    padding: 10px 12px;
+    padding: 12px 18px;
     border-radius: var(--card-radius);
     box-shadow: var(--shadow);
     margin-bottom: 0px;
@@ -258,14 +258,15 @@ body {
     display: flex;
     align-items: center;
     background: var(--white);
-    border-radius: 12px;
-    padding: 0px 10px;
-    border: 1px solid #dce8d5;
+    border-radius: 30px;
+    padding: 0px 16px;
+    border: 1.5px solid #e0f0d5;
 }
 
 .input-wrapper i {
     color: var(--text-muted);
-    width: 18px;
+    width: 20px;
+    height: 20px;
 }
 
 .input-wrapper input {
@@ -353,14 +354,14 @@ body {
 /* Buttons */
 .btn {
     width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 0.8rem;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 0.85rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -398,9 +399,10 @@ body {
 .divider {
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 12px 0;
     color: var(--text-muted);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    opacity: 0.8;
 }
 
 .divider::before,
@@ -408,15 +410,19 @@ body {
     content: "";
     flex: 1;
     height: 1px;
-    background: #ddd;
-    margin: 0 10px;
+    background: #ebebeb;
+    margin: 0 12px;
 }
 
 .social-login {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    margin-bottom: 8px;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.social-login .btn {
+    padding: 10px;
 }
 
 .social-login img {
