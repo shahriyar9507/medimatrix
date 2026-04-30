@@ -51,7 +51,7 @@ body {
 .page {
     width: 100%;
     min-height: 100%;
-    padding: 24px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -77,30 +77,30 @@ body {
 }
 
 .logo-wrapper {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     background: var(--white);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .logo-img {
-    width: 80px;
+    width: 50px;
 }
 
 .brand-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .brand-slogan {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     opacity: 0.9;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .loader-container {
@@ -151,7 +151,7 @@ body {
 }
 
 .header-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -169,21 +169,21 @@ body {
 /* Illustrations */
 .illustration-box {
     width: 100%;
-    height: 240px;
+    height: 160px;
     background: #c2e8a1;
-    border-radius: 40px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .phone-illustration {
-    width: 120px;
-    height: 200px;
+    width: 80px;
+    height: 130px;
     background: #6ad1bc;
-    border-radius: 20px;
-    border: 4px solid #fff;
+    border-radius: 12px;
+    border: 2px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,42 +191,42 @@ body {
 }
 
 .inner-logo {
-    width: 60px;
+    width: 40px;
 }
 
 /* Typography */
 .section-title {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     text-align: center;
 }
 
 .section-subtitle {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .welcome-title {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
-    margin: 20px 0 10px;
+    margin: 12px 0 6px;
 }
 
 .welcome-subtitle {
     text-align: center;
     color: var(--text-muted);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Forms & Inputs */
 .form-card {
     background: var(--white);
-    padding: 30px 24px;
+    padding: 16px 14px;
     border-radius: var(--card-radius);
     box-shadow: var(--shadow);
     margin-bottom: 0px;
@@ -269,10 +269,10 @@ body {
 
 .input-wrapper input {
     flex: 1;
-    padding: 14px 10px;
+    padding: 10px 8px;
     border: none;
     background: transparent;
-    font-size: 1rem;
+    font-size: 0.85rem;
     outline: none;
 }
 
@@ -316,14 +316,14 @@ body {
 .language-options {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    margin-bottom: 40px;
+    gap: 10px;
+    margin-bottom: 24px;
 }
 
 .lang-card {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10px 14px;
     background: var(--white);
     border-radius: var(--border-radius);
     border: 2px solid transparent;
@@ -363,14 +363,14 @@ body {
 /* Buttons */
 .btn {
     width: 100%;
-    padding: 18px;
-    border-radius: 30px;
-    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 0.9rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -457,10 +457,10 @@ body {
 /* OTP */
 .otp-card {
     background: var(--white);
-    padding: 40px 24px;
+    padding: 24px 16px;
     border-radius: var(--card-radius);
     box-shadow: var(--shadow);
-    margin: 20px 0 40px;
+    margin: 12px 0 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -491,13 +491,13 @@ body {
 }
 
 .otp-input-container input {
-    width: 60px;
-    height: 75px;
-    border-radius: 12px;
+    width: 42px;
+    height: 55px;
+    border-radius: 8px;
     border: 1px solid transparent;
     background: #e5e5e5;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     outline: none;
     transition: var(--transition);
