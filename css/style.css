@@ -51,7 +51,7 @@ body {
 .page {
     width: 100%;
     min-height: 100%;
-    padding: 8px 12px;
+    padding: 4px 12px;
     display: flex;
     flex-direction: column;
 }
@@ -78,30 +78,30 @@ body {
 }
 
 .logo-wrapper {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: var(--white);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .logo-img {
-    width: 40px;
+    width: 35px;
 }
 
 .brand-name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
 .brand-slogan {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     opacity: 0.9;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .loader-container {
@@ -129,9 +129,17 @@ body {
 }
 
 @keyframes loading {
-    0% { transform: translateX(-100%); }
-    50% { transform: translateX(0); }
-    100% { transform: translateX(100%); }
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 /* Header */
@@ -162,20 +170,20 @@ body {
 /* Illustrations */
 .illustration-box {
     width: 100%;
-    height: 130px;
+    height: 110px;
     background: #c2e8a1;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .phone-illustration {
-    width: 60px;
-    height: 100px;
+    width: 50px;
+    height: 85px;
     background: #6ad1bc;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 2px solid #fff;
     display: flex;
     justify-content: center;
@@ -184,7 +192,7 @@ body {
 }
 
 .inner-logo {
-    width: 32px;
+    width: 28px;
 }
 
 /* Typography */
@@ -204,16 +212,17 @@ body {
 }
 
 .welcome-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    margin: 10px 0 4px;
+    margin: 6px 0 2px;
 }
 
 .welcome-subtitle {
     text-align: center;
     color: var(--text-muted);
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    font-size: 0.75rem;
 }
 
 /* Forms & Inputs */
@@ -405,8 +414,8 @@ body {
 .social-login {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    margin-bottom: 10px;
+    gap: 4px;
+    margin-bottom: 8px;
 }
 
 .social-login img {
@@ -415,10 +424,10 @@ body {
 
 .terms-text,
 .terms-disclaimer {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--text-muted);
     text-align: center;
-    margin: 10px 0;
+    margin: 6px 0;
 }
 
 .footer-link {
@@ -514,22 +523,22 @@ body {
 
 /* Success */
 .success-circle {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     background: #eaf6e2;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto 20px;
+    margin: 30px auto 15px;
     position: relative;
     animation: scale-in 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .success-circle::after {
     content: "";
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: var(--primary);
     border-radius: 50%;
     position: absolute;
@@ -537,8 +546,8 @@ body {
 }
 
 .success-circle svg {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     color: var(--white);
     position: relative;
     z-index: 2;
@@ -547,14 +556,21 @@ body {
 .success-actions {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 @keyframes fade-up {
-    0% { transform: translateY(20px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .section-title {
@@ -576,6 +592,13 @@ body {
 }
 
 @keyframes scale-in {
-    0% { transform: scale(0); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
