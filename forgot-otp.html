@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMatrix - Verify OTP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div class="page">
+            <div class="page-content">
+                <div class="icon-circle">
+                    <i data-feather="mail"></i>
+                </div>
+                
+                <h2 class="section-title">OTP পাঠানো হয়েছে</h2>
+                <p class="section-subtitle">পাসওয়ার্ড রিসেট করতে আপনার নম্বরে পাঠানো কোডটি দিন</p>
+
+                <div class="otp-card">
+                    <div class="otp-input-container">
+                        <input type="text" maxlength="1" autofocus>
+                        <input type="text" maxlength="1">
+                        <input type="text" maxlength="1">
+                        <input type="text" maxlength="1">
+                    </div>
+
+                    <div class="otp-timer">
+                        <i data-feather="clock" style="width: 18px;"></i> কোড মেয়াদ: <span class="timer-val">02 : 45</span>
+                    </div>
+                </div>
+
+                <a href="#" class="resend-link">আবার কোড পাঠান (Resend Code)</a>
+
+                <div class="mt-auto">
+                    <a href="reset-password.html" class="btn btn-primary">
+                        যাচাই করুন <i data-feather="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

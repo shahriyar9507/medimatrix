@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMatrix - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app-container">
+        <div class="page">
+            <div class="page-content">
+                <div class="center" style="margin-top: 40px;">
+                    <img src="assets/medimatrixlogo.png" alt="Logo" style="width: 80px;">
+                </div>
+
+                <h2 class="welcome-title">আবার স্বাগতম!</h2>
+                <p class="welcome-subtitle">লগইন করুন</p>
+
+                <div class="form-card">
+                    <div class="form-container">
+                        <div class="input-group">
+                            <label>আপনার মোবাইল নম্বর দিন</label>
+                            <div class="input-wrapper">
+                                <i data-feather="phone"></i>
+                                <input type="text" placeholder="01604XXXXXX">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label>আপনার পাসওয়ার্ড দিন</label>
+                            <div class="input-wrapper">
+                                <i data-feather="lock"></i>
+                                <input type="password" placeholder="XXXXXXXXXXXX">
+                                <i data-feather="eye" class="toggle-password"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="login-options" style="margin-top: 15px; margin-bottom: 0;">
+                        <label class="remember-me">
+                            <input type="checkbox">
+                            <span>আমাকে মনে রাখুন</span>
+                        </label>
+                        <a href="forgot-password.html" class="forgot-password">পাসওয়ার্ড ভুলে গেছেন?</a>
+                    </div>
+                </div>
+
+                <div class="divider">
+                    <span>অথবা</span>
+                </div>
+
+                <div class="social-login">
+                    <button class="btn btn-outline">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google">
+                        Continue with Google
+                    </button>
+                    <button class="btn btn-blue">
+                        <i class="fab fa-facebook-f"></i> Continue with Facebook
+                    </button>
+                </div>
+
+                <div class="mt-auto">
+                    <a href="otp.html" class="btn btn-primary">
+                        লগইন করুন <i data-feather="arrow-right"></i>
+                    </a>
+                    <p class="footer-link">অ্যাকাউন্ট নেই? <a href="registration.html">রেজিস্ট্রেশন করুন</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

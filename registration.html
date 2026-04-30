@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMatrix - Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div class="page">
+            <div class="page-content">
+                <div class="center" style="margin-top: 40px;">
+                    <img src="assets/medimatrixlogo.png" alt="Logo" style="width: 80px;">
+                </div>
+                
+                <h2 class="welcome-title">স্বাগতম!</h2>
+                <p class="welcome-subtitle">নতুন অ্যাকাউন্ট তৈরি করুন</p>
+
+                <div class="form-card">
+                    <div class="form-container">
+                        <div class="input-group">
+                            <label>আপনার পুরো নাম দিন</label>
+                            <div class="input-wrapper">
+                                <i data-feather="user"></i>
+                                <input type="text" placeholder="Enter your full name">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label>আপনার মোবাইল নম্বর দিন</label>
+                            <div class="input-wrapper">
+                                <i data-feather="phone"></i>
+                                <input type="text" placeholder="01604XXXXXX">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label>আপনার পাসওয়ার্ড দিন</label>
+                            <div class="input-wrapper">
+                                <i data-feather="lock"></i>
+                                <input type="password" placeholder="XXXXXXXXXXXX">
+                                <i data-feather="eye" class="toggle-password"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider">
+                    <span>অথবা</span>
+                </div>
+
+                <div class="social-login">
+                    <button class="btn btn-outline">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google"> Continue with Google
+                    </button>
+                    <button class="btn btn-blue">
+                        <i class="fab fa-facebook-f"></i> Continue with Facebook
+                    </button>
+                </div>
+
+                <p class="terms-disclaimer">রেজিস্ট্রেশন করে আপনি আমাদের <strong>সেবার শর্ত</strong> এবং <strong>গোপনীয়তা</strong> নীতিতে সম্মত হচ্ছেন</p>
+
+                <div class="mt-auto">
+                    <a href="otp.html" class="btn btn-primary">
+                        OTP পাঠান <i data-feather="arrow-right"></i>
+                    </a>
+                    <p class="footer-link">ইতিমধ্যে অ্যাকাউন্ট আছে? <a href="login.html">লগইন করুন</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
